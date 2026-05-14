@@ -1,6 +1,6 @@
 use std::process::ExitCode;
 
-use git_rust::{cli, error::GitError};
+use git_rs::{cli, error::GitError};
 
 fn main() -> ExitCode {
     match cli::run() {

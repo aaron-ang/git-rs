@@ -8,4 +8,4 @@
 
 set -e # Exit on failure
 
-exec /tmp/codecrafters-build-git-rust/release/git-rust "$@"
+exec /tmp/codecrafters-build-git-rs/release/git-rs "$@"
